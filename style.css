@@ -1,0 +1,737 @@
+@import url('https://fonts.cdnfonts.com/css/argentum-sans');
+  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+}
+#logoHeader {
+    display: flex;
+    align-items: center;
+}
+
+.imgLogoHeader {
+    height: 18vh;
+    width: 18vw;
+}
+.navHeader {
+    display: flex;
+    width: 25%;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 15rem;
+}
+
+.ulHeader {
+    display: flex;
+    list-style: none;
+    width: 100%;
+}
+
+
+.liHeader {
+    display: flex;
+    justify-content: space-evenly;
+    align-items:baseline;
+    width: 100%;
+    font-size: 18px;
+    color: #005BD5;
+    font-family: 'argentum sans';
+    font-weight: 300;
+    transition-duration:1s;
+    transform-origin: 0% 0%;
+    cursor: pointer;
+}
+
+.liHeader:hover {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    font-size: 22px;
+    color: #005BD5;
+    font-family: 'argentum sans';
+    font-weight: 300;
+    transform:scale(1);
+    cursor: pointer;
+}
+
+#buttonHeader {
+    background-color: #005BD5;
+    border: 1px solid #005BD5;
+    color: white;
+    font-size: 16px;
+    width: 14%;
+    height: 7vh;
+    letter-spacing: 0.3rem;
+    border-radius: 2rem;
+    margin-top: 0.4rem;
+    font-family: 'argentum sans';
+    font-weight: 400;
+    cursor: pointer;
+    transition-duration:1s;
+    transform-origin: 0% 0%;
+}
+
+#buttonHeader:hover {
+    background-color: #005BD5;
+    border: 1px solid #005BD5;
+    color: white;
+    font-size: 16px;
+    width: 16%; 
+    letter-spacing: 0.3rem;
+    border-radius: 2rem;
+    margin-top: 0.4rem;
+    font-family: 'argentum sans';
+    font-weight: 400;
+    cursor: pointer;
+    color: white;
+    transform:scale(1);
+}
+
+#mainOne {
+    background-image: url(/assets/img/pexels-brett-sayles-1907307@2x.png);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#txtBusca{
+    float:left;
+    background-color:white;
+    padding-left: 1.5rem;
+    font-style:italic;
+    font-size:18px;
+    border: 1px solid white;
+    border-radius: 5rem;
+    height:2.8rem;
+    width:30rem;
+  }
+
+  #buscar {
+    background-color: #005BD5;
+    border: 1px solid #005BD5;
+    color: white;
+    font-size: 16px;
+    width: 14%;
+    height: 7vh;
+    letter-spacing: 0.3rem;
+    border-radius: 2rem;
+    margin-top: 0.4rem;
+    font-family: 'argentum sans';
+    font-weight: 400;
+    cursor: pointer;
+    transition-duration:1s;
+    transform-origin: 0% 0%;
+  }
+
+#mainTwo, #mainThree, #mainFour {
+    display: flex;
+    height: 71vh;
+    margin: 0;
+}
+
+#one, #three, #four, #five, #seven, #eight{
+    width: 50%;
+}
+
+.photoCasal {
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+}
+
+.photoCaminho {
+    width: 100%;
+    background-size: cover;
+}
+
+#two, #six {
+    background: transparent linear-gradient(180deg, #005BD5 0%, #002E6B 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 50%;
+}
+
+#carousel {
+    display: flex;
+    width: 100%;
+}
+
+.carousel {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 250px;
+}
+
+.carousel1 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 250px;
+    background-image: url(/assets/img/Retângulo\ 65@2x.png);
+    background-size: contain;
+}
+
+.carousel2 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 250px;
+    background-image: url(/assets/img/Retângulo\ 66@2x.png);
+    background-size: contain;
+}
+
+.carousel3 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 250px;
+    background-image: url(/assets/img/Retângulo\ 67@2x.png);
+    background-size: contain;
+}
+
+.carousel4 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 250px;
+    background-image: url(/assets/img/Retângulo\ 68@2x.png);
+    background-size: contain;
+}
+
+#buttonCarousel3 {
+position: relative;
+background-color: #005BD5;
+border: 1px solid #005BD5;
+color: white;
+font-size: 16px;
+width: 14%;
+height: 7vh;
+letter-spacing: 0.3rem;
+border-radius: 2rem;
+margin-top: 0.4rem;
+font-family: 'argentum sans';
+font-weight: 400;
+cursor: pointer;
+right: 10rem;
+}
+
+#buttonCarousel4 {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 1px solid #005BD5;
+    color: white;
+    font-size: 16px;
+    width: 70%;
+    height: 7vh;
+    letter-spacing: 0.3rem;
+    border-radius: 2rem;
+    margin-top: 0.4rem;
+    font-family: 'argentum sans';
+    font-weight: 400;
+    cursor: pointer;
+    left: 3rem;
+    top: 6rem;
+    transition-duration:1s;
+    transform-origin: 0% 0%;
+    }
+    
+    #buttonCarousel4:hover {
+        position: relative;
+        background-color: rgba(0, 0, 0, 0.6);
+        border: 1px solid #005BD5;
+        color: white;
+        font-size: 16px;
+        width: 70%;
+        height: 7vh;
+        letter-spacing: 0.3rem;
+        border-radius: 2rem;
+        margin-top: 0.4rem;
+        font-family: 'argentum sans';
+        font-weight: 400;
+        cursor: pointer;
+        left: 3rem;
+        top: 6rem;
+        transform: scale(1);
+        }
+
+#h1main, #h3main {
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+justify-content: center;
+align-items: center;
+color: #8B8B8B;
+font-family: 'argentum sans';
+}
+
+#h1main {
+    font-size: 2.5rem;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+#mainFive {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    margin-top: 6rem;
+}
+
+.mural {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: auto;
+}
+
+.pictures {
+    display: inline-block;
+    padding: 0.5rem;
+    transition-duration:1s;
+    transform-origin: 0% 0%;
+}
+
+.pictures:hover {
+    display: inline-block;
+    padding: 1rem;
+    /*transition: .7s ease all;*/
+    transform:scale(1);
+    cursor: pointer;
+}
+
+#carouselTwo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.carouselTwo {
+    width: 250px;
+    height: 350px;
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.imgCarousel {
+    width: 150px;
+    height: 150px;
+}
+
+.h2carouselTwo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: 'argentum sans';
+    color: #005BD5;
+
+}
+
+.h2carouselTwo2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: 'argentum sans';
+    color: white;
+}
+
+.carouselThree {
+    width: 250px;
+    height: 350px;
+    background-color: #005BD5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.viagensNacionais {
+    font-family: 'argentum sans';
+    font-size: 16px;
+    color: white;
+    letter-spacing: 0.4rem;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 5rem;
+    right: 3rem;
+}
+
+.viagensNacionais2 {
+    font-family: 'argentum sans';
+    font-size: 16px;
+    color: #005BD5;
+    letter-spacing: 0.4rem;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 5rem;
+    right: 3rem;
+
+}
+
+.h1Mains {
+    color: #005BD5;
+    font-size: 2.5rem;
+    font-family: 'argentum sans';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    position: relative;
+    left: 5rem;
+    top: 5.5rem;
+}
+
+.pMains {
+    color: #005bd5;
+    font-family: 'argentum sans';
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    position: relative;
+    left: 5rem;
+    top: 6rem;
+    width: 80%;
+}
+
+.pMains2 {
+    color: white;
+    font-family: 'argentum sans';
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    position: relative;
+    left: 5rem;
+    top: 6rem;
+    width: 80%;
+}
+
+.pMains3 {
+    color: white;
+    font-family: 'argentum sans';
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    position: relative;
+    left: 5rem;
+    top: 6rem;
+    width: 100%;
+    display: inline-block;
+}
+
+.h1Mains3 {
+    color: white;
+    font-size: 2.5rem;
+    font-family: 'argentum sans';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    position: relative;
+    left: 5rem;
+    top: 5.5rem;
+}
+
+
+.h1Mains2 {
+    color: white;
+    font-size: 2.5rem;
+    font-family: 'argentum sans';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    position: relative;
+    left: 5rem;
+    top: 5.5rem;
+}
+
+#mainSix {
+    background: #005BD5;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    height: 40vh;
+}
+
+.h1mainOne {
+    font-family: 'argentum sans';
+    color: #005BD5;
+    font-size: 35px;
+    width: 30%;
+    position: relative;
+    top: 123px;
+left: 50px;
+}
+
+.h1mainSix {
+    font-family: 'argentum sans';
+    color: white;
+    font-size: 35px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sixtext1 {
+    float: left;
+    background-color: white;
+    padding-left: 1.5rem;
+    font-style: italic;
+    font-size: 18px;
+    border: 1px solid white;
+    border-radius: 5rem;
+    height: 2.8rem;
+    width: 30rem;
+    margin-top: 1rem;
+}
+
+#sixtext2 {
+    float: left;
+    background-color: white;
+    padding-left: 1.5rem;
+    font-style: italic;
+    font-size: 18px;
+    border: 1px solid white;
+    border-radius: 1rem;
+    height: 10rem;
+    width: 30rem;
+    margin-top: 1rem;
+}
+
+#sixemail {
+    float: left;
+    background-color: white;
+    padding-left: 1.5rem;
+    font-style: italic;
+    font-size: 18px;
+    border: 1px solid white;
+    border-radius: 5rem;
+    height: 2.8rem;
+    width: 30rem;
+    margin-top: 1.5rem;
+}
+
+#sixsubmit {
+    background-color: #005BD5;
+    border: 1px solid white;
+    color: white;
+    font-size: 16px;
+    width: 14%;
+    height: 7vh;
+    letter-spacing: 0.3rem;
+    border-radius: 2rem;
+    margin-top: 0.4rem;
+    font-family: 'argentum sans';
+    font-weight: 400;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+#divBusca {
+    position: relative;
+    top: 155px;
+left: 50px;
+}
+
+#divBuscar {
+    position: relative;
+    top: 172px;
+left: 50px;
+}
+
+#buttonCarousel {
+position: relative;
+background-color: #005BD5;
+border: 1px solid #005BD5;
+color: white;
+font-size: 16px;
+width: 14%;
+height: 7vh;
+letter-spacing: 0.3rem;
+border-radius: 2rem;
+margin-top: 0.4rem;
+font-family: 'argentum sans';
+font-weight: 400;
+cursor: pointer;
+}
+
+.navFooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: baseline;
+    /*margin-left: rem;*/
+    margin-left: 5rem;
+}
+
+.ulFooter {
+    list-style: none;
+}
+
+.liFooter{
+    padding: 5px;
+    font-family: 'argentum sans';
+    color: #005BD5;;
+}
+
+.h3Footer {
+    font-family: 'argentum sans';
+    color: #005BD5;
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+
+#buttonMain {
+    background-color: transparent;
+    border: 1px solid #005BD5;
+    color: white;
+    font-size: 16px;
+    width: 20%;
+    height: 7vh;
+    letter-spacing: 0.3rem;
+    border-radius: 2rem;
+    margin-top: 0.4rem;
+    font-family: 'argentum sans';
+    font-weight: 400;
+    cursor: pointer;
+    position: relative;
+    top: 8rem;
+    left: 5rem;
+    transition-duration:1s;
+    transform-origin: 0% 0%;
+}
+
+#buttonMain:hover {
+    background-color: rgba(0, 91, 213, 0.3);
+    border: 1px solid #005BD5;
+    color: white;
+    font-size: 16px;
+    width: 20%;
+    height: 7vh;
+    letter-spacing: 0.3rem;
+    border-radius: 2rem;
+    margin-top: 0.4rem;
+    font-family: 'argentum sans';
+    font-weight: 400;
+    cursor: pointer;
+    position: relative;
+    top: 8rem;
+    left: 5rem;
+    transform: scale(1);
+}
+
+#buttonMain2 {
+    background-color: transparent;
+    color: #005BD5;
+    font-size: 16px;
+    width: 20%;
+    height: 7vh;
+    letter-spacing: 0.3rem;
+    border-radius: 2rem;
+    margin-top: 0.4rem;
+    font-family: 'argentum sans';
+    font-weight: 400;
+    cursor: pointer;
+    position: relative;
+    top: -7rem;
+    left: -35rem;
+    border: 1px solid #005BD5;
+    transition-duration:1s;
+    transform-origin: 0% 0%;
+}
+
+#buttonMain2:hover {
+    background-color: rgba(0, 91, 213, 0.3);
+    color: #005BD5;
+    font-size: 16px;
+    width: 20%;
+    height: 7vh;
+    letter-spacing: 0.3rem;
+    border-radius: 2rem;
+    margin-top: 0.4rem;
+    font-family: 'argentum sans';
+    font-weight: 400;
+    cursor: pointer;
+    position: relative;
+    top: -7rem;
+    left: -35rem;
+    border: 1px solid #005BD5;
+    transform: scale(1);
+}
+
+#buttonMain3 {
+    background-color: transparent;
+    border: 1px solid #005BD5;
+    color: white;
+    font-size: 16px;
+    width: 20%;
+    height: 7vh;
+    letter-spacing: 0.3rem;
+    border-radius: 2rem;
+    margin-top: 0.4rem;
+    font-family: 'argentum sans';
+    font-weight: 400;
+    cursor: pointer;
+    position: relative;
+    top: 8rem;
+    left: 5rem;
+    transition-duration:1s;
+    transform-origin: 0% 0%;
+}
+
+#buttonMain3:hover {
+    background-color: rgba(0, 91, 213, 0.3);
+    border: 1px solid #005BD5;
+    color: white;
+    font-size: 16px;
+    width: 20%;
+    height: 7vh;
+    letter-spacing: 0.3rem;
+    border-radius: 2rem;
+    margin-top: 0.4rem;
+    font-family: 'argentum sans';
+    font-weight: 400;
+    cursor: pointer;
+    position: relative;
+    top: 8rem;
+    left: 5rem;
+    transform: scale(1);
+}
+
+/*Responsivo Mobile Header*/
+@media(min-width:201px) and (max-width: 500px){
+
+}
